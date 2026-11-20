@@ -21,7 +21,9 @@ Git ist ein Versionskontrollsystem, das jede Änderung an Dateien oder Quellcode
 - ```git push```: Lädt deine lokalen Commits hoch auf das entfernte Server-Repository
 
 ### Branches und ihre Nutzung, Umgang mit Merge-Konflikten
-... *Michal Kress*
+1. Suche nach Markierungen mit Konflikten (<<<<<<<, =======, >>>>>>>).
+2. Lösche evtl. den markierten Code, den du nicht behalten möchtest bwz. lass ihn uncommented(oder passe den wohlmöglich betroffenen incl. <<HEAD >> Code so an, dass beide Änderungen passen).
+
 
 ### Git mit IntelliJ/PyCharm benutzen: Local Repository und Remote Repository
 
